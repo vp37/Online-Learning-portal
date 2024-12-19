@@ -182,7 +182,7 @@ header h2 {
 }
 
 .video {
-    background-image: url("./asset/Front.png");
+    background-image: url("./mainFront.png");
     align-items: center;
     height: 303px;
     width: 860px;

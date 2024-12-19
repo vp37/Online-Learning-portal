@@ -22,5 +22,5 @@ document.getElementById("registerButton").addEventListener("click", function () 
     localStorage.setItem("password", password);
 
     alert("Registration successful! Redirecting to login page.");
-    window.location.href = "file:///E:/crystaldelta/LoginPage/index.html"; // Redirect to the login page
+    window.location.href = "file:///E:/crystaldelta/Online-Learning-portal/CrystalDelta/index.html"; // Redirect to the login page
 });
