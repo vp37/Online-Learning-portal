@@ -17,7 +17,7 @@ document.getElementById("loginFunction").addEventListener("click", function () {
     // Check if username or email matches and the password is correct
     if ((usernameOrEmail === storedUsername || usernameOrEmail === storedEmail) && password === storedPassword) {
         alert("Login successful! Redirecting to the main page.");
-        window.location.href = "file:///E:/crystaldelta/Online-Learning-portal/CrystalDelta/Main.html"; // Redirect to the main page
+        window.location.href = "./pages/Main.html"; // Redirect to the main page
     } else {
         alert("Invalid credentials. Please try again.");
     }
